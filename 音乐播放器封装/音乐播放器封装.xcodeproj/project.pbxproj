@@ -49,6 +49,7 @@
 		D676B8631D33D40100172148 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D676B8561D33D40100172148 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		D676B8641D33D40100172148 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D676B8581D33D40100172148 /* View+MASAdditions.m */; };
 		D676B8651D33D40100172148 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D676B85B1D33D40100172148 /* ViewController+MASAdditions.m */; };
+		D67CECFC1D34805E00762F6C /* FLYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D67CECFA1D34805E00762F6C /* FLYButton.m */; };
 		D6E2B8FD1D33C43200E6ECC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E2B8FC1D33C43200E6ECC7 /* main.m */; };
 		D6E2B9001D33C43200E6ECC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E2B8FF1D33C43200E6ECC7 /* AppDelegate.m */; };
 		D6E2B9031D33C43200E6ECC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E2B9021D33C43200E6ECC7 /* ViewController.m */; };
@@ -129,6 +130,8 @@
 		D676B8591D33D40100172148 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		D676B85A1D33D40100172148 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		D676B85B1D33D40100172148 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		D67CECF91D34805E00762F6C /* FLYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLYButton.h; sourceTree = "<group>"; };
+		D67CECFA1D34805E00762F6C /* FLYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLYButton.m; sourceTree = "<group>"; };
 		D6E2B8F81D33C43200E6ECC7 /* 音乐播放器封装.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "音乐播放器封装.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E2B8FC1D33C43200E6ECC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6E2B8FE1D33C43200E6ECC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -372,9 +375,20 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		D67CECFB1D34805E00762F6C /* 自定义button */ = {
+			isa = PBXGroup;
+			children = (
+				D67CECF91D34805E00762F6C /* FLYButton.h */,
+				D67CECFA1D34805E00762F6C /* FLYButton.m */,
+			);
+			name = "自定义button";
+			path = "../../--master/音乐播放器封装";
+			sourceTree = "<group>";
+		};
 		D6E2B8EF1D33C43200E6ECC7 = {
 			isa = PBXGroup;
 			children = (
+				D67CECFB1D34805E00762F6C /* 自定义button */,
 				D676B74D1D33CBB100172148 /* MP3Tool */,
 				D676B74B1D33CB9000172148 /* MP3 */,
 				D6E2B8FA1D33C43200E6ECC7 /* 音乐播放器封装 */,
@@ -574,6 +588,7 @@
 				D676B8621D33D40100172148 /* NSArray+MASAdditions.m in Sources */,
 				D676B8651D33D40100172148 /* ViewController+MASAdditions.m in Sources */,
 				D676B85D1D33D40100172148 /* MASConstraint.m in Sources */,
+				D67CECFC1D34805E00762F6C /* FLYButton.m in Sources */,
 				D676B85F1D33D40100172148 /* MASLayoutConstraint.m in Sources */,
 				D6E2B8FD1D33C43200E6ECC7 /* main.m in Sources */,
 			);
